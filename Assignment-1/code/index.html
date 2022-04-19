@@ -11,10 +11,23 @@
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
-    <div id="root"></div>
+    <div id="parent"></div>
     <script type="text/babel">
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+ ReactDOM.render(<div>
+  <div className="firstcls">
+        <div className="yellow"></div>
+        <div className="yellow"></div>
+    </div>
+    <div className="secondcls">
+        <div className="red"></div>
+    </div>
+    <div className="thirdcls">
+        <div className="blue"></div>
+        <div className="blue"></div>
+        <div className="blue" id="dlt"></div>
+    </div>
+  </div>,document.getElementById('parent'));
 
 </script>
 <!--

@@ -1,0 +1,63 @@
+.site-container {
+    text-align: center;
+  }
+  html {
+    font-size: 14px;
+  }
+  body {
+    line-height: 1.5;
+    color: black;
+    margin: 0;
+  }
+  .post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2%;
+    border: 1px solid rgb(220, 217, 217);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5px;
+  }
+  
+  .postimage {
+    display: flex;
+    justify-content: center;
+  }
+  .postimage img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .tophalf,
+  .actions,
+  .bottomhalf {
+    padding: 3%;
+  }
+  
+  .tophalf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tophalf p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  .tools {
+    margin-right: 8px;
+  }
+  
+  .lighttext {
+    color: rgb(114, 114, 114);
+  }
+  
+  .bottomhalf p {
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+  .middlebar {
+    display: flex;
+    justify-content: space-between;
+  }

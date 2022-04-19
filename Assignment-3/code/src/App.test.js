@@ -1,18 +1,18 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('check if container have .customer-info class for div', () => {
+test('check if container have .info class for div', () => {
   const { container } =render(<App />);
-  expect(container.getElementsByClassName('customer-info').length).toBe(1);
+  expect(container.getElementsByClassName('info').length).toBe(1);
 });
 
-test('check if container have .order-info class', () => {
+test('check if container have .order class', () => {
   const { container } =render(<App />);
-  expect(container.getElementsByClassName('order-info').length).toBe(1);
+  expect(container.getElementsByClassName('order').length).toBe(1);
 });
-test('check if container have .product-list class', () => {
+test('check if container have .list class', () => {
   const { container } =render(<App />);
-  expect(container.getElementsByClassName('product-list').length).toBe(1);
+  expect(container.getElementsByClassName('list').length).toBe(1);
 });
 test('check if container has Appointment On data', () => {
   const { container } =render(<App />);
